@@ -8,29 +8,13 @@ API em NodeJS com Express, Sequelize(ORM) e MySQL.
 
 Passos realizados no terminal e configurações INICIAIS do projeto:
 
-npm init -y
+npm install para instalar as dependências.
 
-npm install express
-
-npm install body-parser
-
-*criar pasta api
-*criar arquivo index.js
-*mudar o caminho do main no package.json "main": "./api/index.js",
-
-npm install --save-dev nodemon
-
-npm install mysql2
-
-npm install sequelize sequelize-cli path
-
-npx sequelize-cli init
+npm start para rodar a API.
 
 ---------------------------------------------------
 Utilizando o SEQUELIZE:
 ---------------------------------------------------
-Criando o modelo Pessoas
-npx sequelize-cli model:create --name Pessoas --attributes nome:string,email:string,nome_amigoSecreto:string
 
 Criando a tabela Pessoas referente ao modelo.
 npx sequelize-cli db:migrate
