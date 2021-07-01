@@ -34,4 +34,12 @@ npx sequelize-cli db:migrate:undo
 Para desfazer o Seed:
 npx sequelize db:seed:undo
 **
+---------------------------------------------------
+Utilizando o Ethereal:
+---------------------------------------------------
 
+Entrar em: https://ethereal.email/
+
+Logar com as informações em email.js.
+
+Verificar os emails enviados.
